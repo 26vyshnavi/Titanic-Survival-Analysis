@@ -33,18 +33,18 @@ The analysis aims to answer the following questions:
 
 ## Setup Instructions
 1. Clone the repository:
-   '''
+   ```
    git clone https://github.com/26vyshnavi/Titanic-Survival-Analysis
    cd Titanic-Survival-Analysis
-   '''
+   ```
 2. Install the required dependencies:
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 3. Run the Jupyter Notebook or Python script:
-   '''
+   ```
    jupyter notebook Titanic-Survival-Analysis.ipynb
-   '''
+   ```
 
 ## Methodology
 ### Data Wrangling
