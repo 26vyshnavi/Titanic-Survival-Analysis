@@ -18,11 +18,11 @@ The dataset contains demographics and passenger information from 891 of the 2,22
 + Cabin
 + Embarked
 + Survival Status (Survived)
+  
 The dataset is sourced from [Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 
 ## Analysis Questions
-The analysis aims to answer the following questions:
-
+The analysis aims to answer the following questions:  
 1. Which factors significantly influenced survival rates?
 + Gender
 + Passenger Class
@@ -49,13 +49,13 @@ The analysis aims to answer the following questions:
 ## Methodology
 ### Data Wrangling
 1. Missing Values:
-- Identified and handled missing values in Age, Cabin, and Embarked columns.
-- Used median imputation for Age and mode imputation for Embarked.
-- Dropped the Cabin column due to a high percentage of missing values.
+- Identified and handled missing values in `Age`, `Cabin`, and `Embarked` columns.
+- Used median imputation for `Age` and mode imputation for `Embarked`.
+- Dropped the `Cabin` column due to a high percentage of missing values.
 
 2. Feature Engineering:
-- Created a new feature FamilySize by summing SibSp and Parch.
-- Generated IsAlone feature to indicate if a passenger was alone.
+- Created a new feature `FamilySize` by summing `SibSp` and `Parch`.
+- Generated `IsAlone` feature to indicate if a passenger was alone.
   
 ### Exploratory Data Analysis (EDA)
 1. Survival Rates by Gender and Class:
